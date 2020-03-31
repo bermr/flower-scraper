@@ -14,7 +14,7 @@ BOT_NAME = 'flowerscraper'
 SPIDER_MODULES = ['flowerscraper.spiders']
 NEWSPIDER_MODULE = 'flowerscraper.spiders'
 LOG_LEVEL = 'CRITICAL'
-CSV_DELIMITER = ";"
+# FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'flowerscraper (+http://www.yourdomain.com)'
